@@ -9,6 +9,9 @@ using System.Web.Routing;
 
 namespace InfoMice
 {
+    using System.Data.Entity;
+    using Models;
+
     // Note: For instructions on enabling IIS6 or IIS7 classic mode, 
     // visit http://go.microsoft.com/?LinkId=9394801
 
@@ -23,6 +26,8 @@ namespace InfoMice
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             AuthConfig.RegisterAuth();
+
+            Database.SetInitializer<AcronymContext>(new DropCreateDatabaseIfModelChanges<AcronymContext>());
         }
     }
 }

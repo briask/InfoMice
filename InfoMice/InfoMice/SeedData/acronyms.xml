@@ -1,0 +1,990 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<acronyms>
+  <acronym>
+    <abrev>7DMT</abrev>
+    <meaning>
+      Seven Dwarfs Mine Train (aka SDMT)
+    </meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>AA</abrev>
+    <meaning>The American Adventure</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>AA</abrev>
+    <meaning>Audio-Animatronics [The *robot* characters in the attractions.]</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>ADR</abrev>
+    <meaning>Advance Dining Reservation</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>AE</abrev>
+    <meaning>AllEars</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>AK</abrev>
+    <meaning>Disney's Animal Kingdom</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>AKL</abrev>
+    <meaning>Animal Kingdom Lodge</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>AKV</abrev>
+    <meaning>Disney's Animal Kingdom Villas [a DVC Resort]</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>AoA</abrev>
+    <meaning>Disney's Art of Animation Resort</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>AP</abrev>
+    <meaning>Annual Pass</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>AP</abrev>
+    <meaning>Artist Point</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>APer</abrev>
+    <meaning>Annual Passholder</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>AS</abrev>
+    <meaning>Disney's All-Star Sports Resort</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>ASM or ASMu</abrev>
+    <meaning>Disney's All-Star Music Resort</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>ASMV or ASMo</abrev>
+    <meaning>Disney's All-Star Movies Resort</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>BatB</abrev>
+    <meaning>"Beauty and the Beast" - Live on Stage</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>B&amp;C</abrev>
+    <meaning>Beaches &amp; Cream at the Beach Club</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>BB</abrev>
+    <meaning>Blizzard Beach</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>BC</abrev>
+    <meaning>Beach Club Resort</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>BCV</abrev>
+    <meaning>Beach Club Villas [a DVC Resort]</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>BLT</abrev>
+    <meaning>BBay Lake Towers at the Contemporary [a DVC Resort]</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>BOG</abrev>
+    <meaning>Be Our Guest Restaurant (Magic Kingdom)</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>BTM</abrev>
+    <meaning>Big Thunder Mountain Railroad</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>BTMR</abrev>
+    <meaning>Big Thunder Mountain Railroad</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>BTMRR</abrev>
+    <meaning>Big Thunder Mountain Railroad</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>BW</abrev>
+    <meaning>Disney's BoardWalk </meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>BWI</abrev>
+    <meaning>Disney's BoardWalk Inn</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>BWV</abrev>
+    <meaning>Disney's BoardWalk Villas [a DVC Resort]</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>CB</abrev>
+    <meaning>Character Breakfast [Breakfasts where Disney Characters show up.]</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>CBJ</abrev>
+    <meaning>Country Bear Jamboree</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>CBR</abrev>
+    <meaning>Disney's Caribbean Beach Resort</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>CG</abrev>
+    <meaning>California Grill</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>CM</abrev>
+    <meaning>Cast Member [An employee of the Walt Disney Company]</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>Cont</abrev>
+    <meaning>Disney's Contemporary Resort</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>CoP</abrev>
+    <meaning>Walt Disney's Carousel of Progress</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>CP</abrev>
+    <meaning>Candlelight Processional</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>CP</abrev>
+    <meaning>Crystal Palace</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>CRO</abrev>
+    <meaning>Central Reservations Office [handling Dining and Resort reservations]</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>CS or CSR</abrev>
+    <meaning>Disney's Coronado Springs Resort</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>CS</abrev>
+    <meaning>Counter Service meal [part of Disney Dining Plan]</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>DAKL</abrev>
+    <meaning>Disney's Animal Kingdom Lodge</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>DCA</abrev>
+    <meaning>Disney California Adventure</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>DCL</abrev>
+    <meaning>Disney Cruise Line</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>DD</abrev>
+    <meaning>Downtown Disney</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>DD</abrev>
+    <meaning>Disney Dollars</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>DDP</abrev>
+    <meaning>Disney Dining Plan</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>DHS</abrev>
+    <meaning>Disney's Hollywood Studios (formerly Disney-MGM Studios) </meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>DL</abrev>
+    <meaning>Disneyland</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>DLH</abrev>
+    <meaning>Disneyland Hotel</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>DLP</abrev>
+    <meaning>Disneyland Paris</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>DLR</abrev>
+    <meaning>Disneyland Resort</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>DQ</abrev>
+    <meaning>Disney Quest</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>DTD</abrev>
+    <meaning>Downtown Disney</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>DRC</abrev>
+    <meaning>Disney Reservations Center [handling Dining and Resort reservations]</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>DVC</abrev>
+    <meaning>Disney Vacation Club</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>EC</abrev>
+    <meaning>Epcot</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>ECV</abrev>
+    <meaning>Electric Convenience Vehicle (electric wheelchair/scooter)</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>EE</abrev>
+    <meaning>Expedition Everest</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>ELP</abrev>
+    <meaning>Main Street Electrical Parade (electrical parade) </meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>EMH</abrev>
+    <meaning>Extra Magic Hours </meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>EWP</abrev>
+    <meaning>Electrical Water Pagent </meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>ExE</abrev>
+    <meaning>Expedition Everest</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>F&amp;G</abrev>
+    <meaning>Epcot Flower and Garden Festival</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>F&amp;W</abrev>
+    <meaning>Epcot Food &amp; Wine Festival</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>FF</abrev>
+    <meaning>Flying Fish</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>FLE</abrev>
+    <meaning>Fantasyland Expansion (Magic Kingdom)</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>FoTLK</abrev>
+    <meaning>Festival of the Lion King (Animal Kingdom)</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>FP</abrev>
+    <meaning>Fast Pass</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>FP+</abrev>
+    <meaning>Fast Pass Plus</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>FtW</abrev>
+    <meaning>Fort Wilderness</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>FW</abrev>
+    <meaning>Disney's Fort Wilderness Campground</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>FW</abrev>
+    <meaning>Future World (part of Epcot)</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>GF</abrev>
+    <meaning>Disney's Grand Floridian Resort and Spa</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>GMR</abrev>
+    <meaning>The Great Movie Ride</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>GoH</abrev>
+    <meaning>Guest of Honor [written as GoH '76 meaning the first year you visited WDW]</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>GS</abrev>
+    <meaning>Guest Services [at water parks]</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>HDD</abrev>
+    <meaning>Hoop De Doo Review (Fort Wilderness Campground) sometimes seen as HDDR</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>HH</abrev>
+    <meaning>Disney's Hilton Head Resort [a DVC Resort]</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>HISTA</abrev>
+    <meaning>Honey, I Shrunk the Audience</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>HM</abrev>
+    <meaning>The Haunted Mansion</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>HM</abrev>
+    <meaning>Hidden Mickey</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>HoP</abrev>
+    <meaning>The Hall of Presidents </meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>HS</abrev>
+    <meaning>Disney's Hollywood Studios</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>IASW</abrev>
+    <meaning>"it's a small world"</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>IG</abrev>
+    <meaning>International Gateway</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>IN</abrev>
+    <meaning>IllumiNations </meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>ITTBAB</abrev>
+    <meaning>It's Tough To Be A Bug (at Animal Kingdom)</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>JC</abrev>
+    <meaning>Jungle Cruise</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>JIYI</abrev>
+    <meaning>Journey Into Your Imagination</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>KRR</abrev>
+    <meaning>Kali River Rapids</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>KJS</abrev>
+    <meaning>Kilimanjaro Safari</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>KTTW</abrev>
+    <meaning>Key To The World card [your Disney resort ID card]</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>KV</abrev>
+    <meaning>Kidani Village - section of Animal Kingdom Villas</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>LBV</abrev>
+    <meaning>Lake Buena Vista</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>LC</abrev>
+    <meaning>Lobby Concierge [the former Guest Services at the resorts] </meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>LMA</abrev>
+    <meaning>Lights, Motors, Action! Extreme Stunt Show </meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>LTT</abrev>
+    <meaning>Liberty Tree Tavern</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>M&amp;G</abrev>
+    <meaning>Meet and Greet</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>MB</abrev>
+    <meaning>Magic Bands</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>MDE</abrev>
+    <meaning>My Disney Experience</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>ME</abrev>
+    <meaning>Magical Express</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>MI</abrev>
+    <meaning>Monster's Inc. Laugh Floor </meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>MK</abrev>
+    <meaning>Magic Kingdom</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>MM</abrev>
+    <meaning>Memory Maker</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>MNSSHP</abrev>
+    <meaning>Mickey's Not-So-Scary Halloween Party</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>MS</abrev>
+    <meaning>Main Street USA</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>MS or M:S</abrev>
+    <meaning>Mission:SPACE</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>MSEP</abrev>
+    <meaning>Main Street Electrical Parade</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>MV3D</abrev>
+    <meaning>Muppet*Vision 3D </meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>MVMCP</abrev>
+    <meaning>Mickey's Very Merry Christmas Party </meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>MYW</abrev>
+    <meaning>Magic Your Way tickets and/or packages</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>NE</abrev>
+    <meaning>No Expiration [added to Magic Your Way tickets]</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>NoJ</abrev>
+    <meaning>Night of Joy</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>NOS</abrev>
+    <meaning>New Orleans Square</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>OKW</abrev>
+    <meaning>Disney's Old Key West Vacation Club Resort</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>OPR</abrev>
+    <meaning>Old Port Royale (at Disney's Caribbean Beach Resort)</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>PAP</abrev>
+    <meaning>Premium Annual Pass</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>PC</abrev>
+    <meaning>Pop Century Resort</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>PH</abrev>
+    <meaning>Park Hopper [ticket add-on to Magic Your Way tickets]</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>PH</abrev>
+    <meaning>Planet Hollywood (part of Downtown Disney)</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>PI</abrev>
+    <meaning>Pleasure Island (part of Downtown Disney)</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>PO</abrev>
+    <meaning>Disney's Port Orleans Resort, now Port Orleans French Quarter</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>PoC</abrev>
+    <meaning>Pirates of the Caribbean</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>POFQ</abrev>
+    <meaning>Port Orleans French Quarter</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>Poly</abrev>
+    <meaning>Disney's Polynesian Resort</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>POP</abrev>
+    <meaning>Pop Century Resort</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>PORS</abrev>
+    <meaning>Port Orleans Riverside (formerly Dixie Landings)</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>PotC</abrev>
+    <meaning>Pirates of the Caribbean</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>PPP</abrev>
+    <meaning>Pirate and Princess Party</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>QS</abrev>
+    <meaning>quick service (part of Disney Dining Plan)</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>RC</abrev>
+    <meaning>Rainforest Cafe</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>RnRC</abrev>
+    <meaning>Rock 'n' Roller Coaster</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>RS</abrev>
+    <meaning>Port Orleans Riverside (formerly Dixie Landings)</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>SB or SAB</abrev>
+    <meaning>Stormalong Bay [pool at Yacht &amp; Beach Club]</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>SDMT</abrev>
+    <meaning>Seven Dwarfs Mine Train</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>SE</abrev>
+    <meaning>Spaceship Earth</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>SGE</abrev>
+    <meaning>Stitch's Great Escape</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>SM</abrev>
+    <meaning>Splash Mountain</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>SM</abrev>
+    <meaning>Space Mountain</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>SoG</abrev>
+    <meaning>Shades of Green Resort</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>SP</abrev>
+    <meaning>Seasonal Pass [available only to Florida residents]</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>SplM</abrev>
+    <meaning>Splash Mountain</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>SSE</abrev>
+    <meaning>Spaceship Earth</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>SSR</abrev>
+    <meaning>Disney's Saratoga Springs Resort [a DVC Resort]</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>ST</abrev>
+    <meaning>Star Tours</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>ST</abrev>
+    <meaning>Disney's Hollywood Studios</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>SWW</abrev>
+    <meaning>Star Wars Weekend</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>TDS</abrev>
+    <meaning>The Disney Store(s)</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>THV</abrev>
+    <meaning>Treehouse Villas at Saratoga Springs Resort [a DVC Resort]</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>TiW</abrev>
+    <meaning>Tables in Wonderland (was Disney Dining Experience)</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>TL</abrev>
+    <meaning>Typhoon Lagoon</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>ToT</abrev>
+    <meaning>"The Twilight Zone Tower of Terror"</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>TS</abrev>
+    <meaning>Table Service meal [part of Disney Dining Plan] </meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>TSMM</abrev>
+    <meaning>Toy Story Midway Mania</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>TSI</abrev>
+    <meaning>Tom Sawyer Island</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>TT</abrev>
+    <meaning>Test Track</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>TTA</abrev>
+    <meaning>Tomorrowland Transit Authority</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>TTC</abrev>
+    <meaning>Transportation and Ticket Center</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>UoE</abrev>
+    <meaning>Universe of Energy</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>V&amp;A</abrev>
+    <meaning>Victoria &amp; Albert's</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>VB</abrev>
+    <meaning>Disney's Vero Beach Resort [a DVC Resort]</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>VotLM</abrev>
+    <meaning>Voyage of the Little Mermaid </meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>VWL</abrev>
+    <meaning>Disney's Villas of Wilderness Lodge [a DVC Resort]</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>WDTC</abrev>
+    <meaning>Walt Disney Travel Company [handling Dining and Resort reservations]</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>WDW</abrev>
+    <meaning>Walt Disney World Resort</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>WL</abrev>
+    <meaning>Disney's Wilderness Lodge Resort </meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>WLV</abrev>
+    <meaning>Villas at Wilderness Lodge </meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>WoD</abrev>
+    <meaning>Disney's World of Disney</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>WoL</abrev>
+    <meaning>Wonders of Life</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>WPF&amp;M</abrev>
+    <meaning>Water Park Fun &amp; More [add-on to Magic Your Way tickets]</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>WS</abrev>
+    <meaning>World Showcase (part of Epcot)</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>WS</abrev>
+    <meaning>West Side (part of Downtown Disney)</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>WWoS</abrev>
+    <meaning>Disney's Wide World of Sports</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>WWS</abrev>
+    <meaning>Disney's Wide World of Sports</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>Y&amp;B</abrev>
+    <meaning>Disney's Yacht Club Resort and Disney's Beach Club Resort</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>YC</abrev>
+    <meaning>Disney's Yacht Club Resort</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>AFAIK</abrev>
+    <meaning>As far as I know</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>AYR</abrev>
+    <meaning>As you recall</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>BTW</abrev>
+    <meaning>By The Way </meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>FWIW</abrev>
+    <meaning>For what it's worth</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>GMTA</abrev>
+    <meaning>Great minds think alike</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>IIRC</abrev>
+    <meaning>If I recall correctly</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>IME</abrev>
+    <meaning>In my experience</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>IMHO</abrev>
+    <meaning>In my humble opinion</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>IYKWIM</abrev>
+    <meaning>If you know what I mean</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>J/K</abrev>
+    <meaning>Just kidding</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>JMHO</abrev>
+    <meaning>Just my humble opinion</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>LOL</abrev>
+    <meaning>Laugh Out Loud</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>OT</abrev>
+    <meaning>Off topic </meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>OTOH</abrev>
+    <meaning>On the Other Hand </meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>ROFL</abrev>
+    <meaning>rolling on floor laughing</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>ROFLMAO</abrev>
+    <meaning>rolling on floor laughing my *butt* off </meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>TIA</abrev>
+    <meaning>Thanks in advance</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>TMI</abrev>
+    <meaning>Too much information</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>TTFN</abrev>
+    <meaning>Ta Ta For Now</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>TTYL</abrev>
+    <meaning>Talk To You Later</meaning>
+    <explain></explain>
+  </acronym>
+  <acronym>
+    <abrev>YMMV</abrev>
+    <meaning>Your Mileage May Vary (means that no two people experience the same thing in exactly the same way, just a caution placed on some descriptions of places, events, food, merchandise, consumer habits, practices, etc.)</meaning>
+    <explain></explain>
+  </acronym>
+</acronyms>

@@ -1,0 +1,21 @@
+﻿@using InfoMice.Models
+@model InfoMice.Models.Acronym
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@foreach (Acronym item in ViewBag.Acronyms)
+{
+    <div>
+        <h3>@Html.DisplayFor(n => item.Name)</h3>
+        <p>@Html.DisplayFor(n => item.FullName)</p>
+        <p>@Html.DisplayFor(n => item.Meaning)</p>
+    </div>
+}
+
+<p>
+@Html.ActionLink("Create New", "Create")
+</p>
