@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfoMice", "InfoMice\InfoMice.csproj", "{ED244CED-E1BE-45F3-964E-421F42308F8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acronyms", "Acronyms\Acronyms.csproj", "{BFBB4DB8-D7FE-4D9C-B632-8C368AC5EE5D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,10 +13,6 @@ Global
 		{ED244CED-E1BE-45F3-964E-421F42308F8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED244CED-E1BE-45F3-964E-421F42308F8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED244CED-E1BE-45F3-964E-421F42308F8A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BFBB4DB8-D7FE-4D9C-B632-8C368AC5EE5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BFBB4DB8-D7FE-4D9C-B632-8C368AC5EE5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BFBB4DB8-D7FE-4D9C-B632-8C368AC5EE5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BFBB4DB8-D7FE-4D9C-B632-8C368AC5EE5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

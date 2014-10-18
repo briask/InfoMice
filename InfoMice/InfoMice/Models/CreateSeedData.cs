@@ -13,7 +13,7 @@ namespace InfoMice.Models
     {
         public static void CreateSeedDataHelper(AcronymContext context)
         {
-            var resourceName = "InfoMice.SeeData.Acronyms.xml";
+            var resourceName = "InfoMice.SeedData.acronyms.xml";;
             var assembly = Assembly.GetExecutingAssembly();
             var stream = assembly.GetManifestResourceStream(resourceName);
             var xml = XDocument.Load(stream);

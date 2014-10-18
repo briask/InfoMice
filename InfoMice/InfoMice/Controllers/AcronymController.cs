@@ -27,6 +27,21 @@ namespace InfoMice.Controllers
 
         public AcronymController()
         {
+
+            //var resourceName = "InfoMice.SeedData.acronyms.xml";
+            //var assembly = Assembly.GetExecutingAssembly();
+            //var stream = assembly.GetManifestResourceStream(resourceName);
+            //var xml = XDocument.Load(stream);
+            //var acronyms = xml.Element("acronyms")
+            //                  .Elements("acronym")
+            //                  .Select((a, index) => new Acronym
+            //                  {
+            //                      AcronymId = index,
+            //                      Abreviation = (string)a.Element("abrev"),
+            //                      FullName = (string)a.Element("meaning")
+            //                  }).ToArray();
+
+
             myCtxt = new AcronymContext();
             myRepo = new AcroymnRepository(myCtxt);
 
@@ -69,6 +84,9 @@ namespace InfoMice.Controllers
         {
             try
             {
+
+                
+
                 Acronym ac = new Acronym();
                 ac.FullName = acronym.FullName;
                 ac.Meaning = acronym.Meaning;
