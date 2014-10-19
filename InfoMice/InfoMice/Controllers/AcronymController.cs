@@ -54,9 +54,26 @@ namespace InfoMice.Controllers
             listAcronyms = list;
         }
 
-        public ActionResult Index()
+        //public ActionResult Index()
+        //{
+        //    ViewBag.Acronyms = listAcronyms;
+        //    return View();
+        //}
+
+        public ActionResult Index(string Search)
         {
-            ViewBag.Acronyms = listAcronyms;
+            if (string.IsNullOrWhiteSpace(Search))
+            {
+                ViewBag.Acronyms = listAcronyms;
+            }
+            else
+            {
+                var test = from a in listAcronyms
+                           where a.Abreviation.ToUpper().Contains(Search.ToUpper())
+                           select a;
+                ViewBag.Acronyms = test;
+            }
+
             return View();
         }
 
@@ -85,7 +102,7 @@ namespace InfoMice.Controllers
             try
             {
 
-                
+
 
                 Acronym ac = new Acronym();
                 ac.FullName = acronym.FullName;

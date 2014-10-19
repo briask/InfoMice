@@ -1,21 +1,38 @@
 ﻿@using InfoMice.Models
 @model InfoMice.Models.Acronym
 
+@section PageStyles {<link href="@Url.Content("~/Content/Styles/Acronym.css")" rel="stylesheet" type="text/css" />}
+
 @{
     ViewBag.Title = "Index";
 }
 
 <h2>Index</h2>
 
-@foreach (Acronym item in ViewBag.Acronyms)
-{
-    <div>
-        <h3>@Html.DisplayFor(n => item.Abreviation)</h3>
-        <p>@Html.DisplayFor(n => item.FullName)</p>
-        <p>@Html.DisplayFor(n => item.Meaning)</p>
-    </div>
-}
-
 <p>
-@Html.ActionLink("Create New", "Create")
+    @using (Html.BeginForm("Index","Acronym", FormMethod.Get))
+    {
+        <p>
+            Acronym: @Html.TextBox("Search") 
+            <input class="acsearch" type="submit" value="Search"/>
+        </p>
+
+    }
+</p>
+
+
+<div>
+    <div>
+        @foreach (Acronym item in ViewBag.Acronyms)
+        {
+            <div class="acronym">
+                <h3 class="acronym">@Html.DisplayFor(n => item.Abreviation)</h3>
+                <p class="acronym">@Html.DisplayFor(n => item.FullName)</p>
+                <p class="acronym">@Html.DisplayFor(n => item.Meaning)</p>
+            </div>
+        }
+    </div>
+</div>
+<p>
+    @Html.ActionLink("Create New", "Create")
 </p>

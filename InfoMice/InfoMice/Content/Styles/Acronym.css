@@ -1,0 +1,4 @@
+﻿div.acronym {width: 100%}
+h3.acronym { float: left;width: 15%;font-size: 0.85em;margin-bottom: 2px;margin-top: 2px}
+h3 + p { float: right;width: 85%;font-size: 0.85em;margin-bottom: 2px;margin-top: 2px}
+/*input.acsearch {float: right}*/
