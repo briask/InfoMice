@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetWDWHours", "GetWDWHours\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventModels", "EventModels\EventModels.csproj", "{78AC114A-E322-4E9A-BEB9-0F5B49227357}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "Repositories\Repositories.csproj", "{FBD1463A-EB87-4786-BC2E-2DD08F96DE1B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{78AC114A-E322-4E9A-BEB9-0F5B49227357}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78AC114A-E322-4E9A-BEB9-0F5B49227357}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78AC114A-E322-4E9A-BEB9-0F5B49227357}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBD1463A-EB87-4786-BC2E-2DD08F96DE1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBD1463A-EB87-4786-BC2E-2DD08F96DE1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBD1463A-EB87-4786-BC2E-2DD08F96DE1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBD1463A-EB87-4786-BC2E-2DD08F96DE1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

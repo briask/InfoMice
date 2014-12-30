@@ -33,143 +33,157 @@ namespace GetWDWHours
             }
         }
 
-        public OperatingHours GetMagicKingdomHours(HtmlDocument page)
+        public bool CheckIfDataValid(HtmlDocument page)
+        {
+            throw new NotImplementedException();
+
+            if (page.DocumentNode.SelectSingleNode("/html[1]/body[1]/div[1]/div[2]/div[4]/div[1]/div[2]/div[2]/div[2]/a[1]/div[1]/div[2]").InnerHtml == null)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+
+        public ParkOperatingHours GetMagicKingdomHours(HtmlDocument page)
         {
 
-            var mk = new OperatingHours();
+            var mk = new ParkOperatingHours();
 
             var normalParkHours = page.DocumentNode.SelectSingleNode("/html[1]/body[1]/div[1]/div[2]/div[4]/div[1]/div[2]/div[2]/div[2]/a[1]/div[1]/div[2]").InnerHtml;
             var magicParkHours = page.DocumentNode.SelectSingleNode("/html[1]/body[1]/div[1]/div[2]/div[4]/div[1]/div[2]/div[2]/div[2]/a[1]/div[1]/div[3]").InnerHtml;
 
-            OperatingHours mkHours = GetOperatingHours(normalParkHours, magicParkHours);
+            ParkOperatingHours mkHours = GetOperatingHours(normalParkHours, magicParkHours);
 
             return mkHours;
         }
 
-        public OperatingHours GetEpcotFutureWorldHours(HtmlDocument page)
+        public ParkOperatingHours GetEpcotFutureWorldHours(HtmlDocument page)
         {
             var normalParkHours = page.DocumentNode.SelectSingleNode("/html[1]/body[1]/div[1]/div[2]/div[4]/div[1]/div[2]/div[2]/div[2]/a[2]/div[1]/div[2]").InnerHtml;
             var magicParkHours = page.DocumentNode.SelectSingleNode("/html[1]/body[1]/div[1]/div[2]/div[4]/div[1]/div[2]/div[2]/div[2]/a[2]/div[1]/div[3]").InnerHtml;
 
-            OperatingHours epcotFutureHours = GetOperatingHours(normalParkHours, magicParkHours);
+            ParkOperatingHours epcotFutureHours = GetOperatingHours(normalParkHours, magicParkHours);
 
             return epcotFutureHours;
         }
 
-        public OperatingHours GetEpcotWorldShowcaseHours(HtmlDocument page)
+        public ParkOperatingHours GetEpcotWorldShowcaseHours(HtmlDocument page)
         {
 
             var normalParkHours = page.DocumentNode.SelectSingleNode("/html[1]/body[1]/div[1]/div[2]/div[4]/div[1]/div[2]/div[2]/div[2]/a[3]/div[1]/div[2]").InnerHtml;
             var magicParkHours = page.DocumentNode.SelectSingleNode("/html[1]/body[1]/div[1]/div[2]/div[4]/div[1]/div[2]/div[2]/div[2]/a[3]/div[1]/div[3]").InnerHtml;
 
-            OperatingHours epcotWorldHours = GetOperatingHours(normalParkHours, magicParkHours);
+            ParkOperatingHours epcotWorldHours = GetOperatingHours(normalParkHours, magicParkHours);
 
             return epcotWorldHours;
         }
 
-        public OperatingHours GetDisneyHollywoodStudioHours(HtmlDocument page)
+        public ParkOperatingHours GetDisneyHollywoodStudioHours(HtmlDocument page)
         {
 
             var normalParkHours = page.DocumentNode.SelectSingleNode("/html[1]/body[1]/div[1]/div[2]/div[4]/div[1]/div[2]/div[2]/div[2]/a[4]/div[1]/div[2]").InnerHtml;
             var magicParkHours = page.DocumentNode.SelectSingleNode("/html[1]/body[1]/div[1]/div[2]/div[4]/div[1]/div[2]/div[2]/div[2]/a[4]/div[1]/div[3]").InnerHtml;
 
-            OperatingHours dhsHours = GetOperatingHours(normalParkHours, magicParkHours);
+            ParkOperatingHours dhsHours = GetOperatingHours(normalParkHours, magicParkHours);
 
             return dhsHours;
         }
 
-        public OperatingHours GetAnimalKingdomHours(HtmlDocument page)
+        public ParkOperatingHours GetAnimalKingdomHours(HtmlDocument page)
         {
 
             var normalParkHours = page.DocumentNode.SelectSingleNode("/html[1]/body[1]/div[1]/div[2]/div[4]/div[1]/div[2]/div[2]/div[2]/a[5]/div[1]/div[2]").InnerHtml;
             var magicParkHours = page.DocumentNode.SelectSingleNode("/html[1]/body[1]/div[1]/div[2]/div[4]/div[1]/div[2]/div[2]/div[2]/a[5]/div[1]/div[3]").InnerHtml;
 
-            OperatingHours akHours = GetOperatingHours(normalParkHours, magicParkHours);
+            ParkOperatingHours akHours = GetOperatingHours(normalParkHours, magicParkHours);
 
             return akHours;
         }
 
-        public OperatingHours GetTyphoonLagoonHours(HtmlDocument page)
+        public ParkOperatingHours GetTyphoonLagoonHours(HtmlDocument page)
         {
 
             var normalParkHours = page.DocumentNode.SelectSingleNode("/html[1]/body[1]/div[1]/div[2]/div[4]/div[1]/div[2]/div[2]/div[2]/a[6]/div[1]/div[2]").InnerHtml;
             var magicParkHours = page.DocumentNode.SelectSingleNode("/html[1]/body[1]/div[1]/div[2]/div[4]/div[1]/div[2]/div[2]/div[2]/a[6]/div[1]/div[3]").InnerHtml;
 
-            OperatingHours typhoonHours = GetOperatingHours(normalParkHours, magicParkHours);
+            ParkOperatingHours typhoonHours = GetOperatingHours(normalParkHours, magicParkHours);
 
             return typhoonHours;
         }
 
 
-        public OperatingHours GetBlizzardBeachHours(HtmlDocument page)
+        public ParkOperatingHours GetBlizzardBeachHours(HtmlDocument page)
         {
 
             var normalParkHours = page.DocumentNode.SelectSingleNode("/html[1]/body[1]/div[1]/div[2]/div[4]/div[1]/div[2]/div[2]/div[2]/a[7]/div[1]/div[2]").InnerHtml;
             var magicParkHours = page.DocumentNode.SelectSingleNode("/html[1]/body[1]/div[1]/div[2]/div[4]/div[1]/div[2]/div[2]/div[2]/a[7]/div[1]/div[3]").InnerHtml;
 
-            OperatingHours blizzardHours = GetOperatingHours(normalParkHours, magicParkHours);
+            ParkOperatingHours blizzardHours = GetOperatingHours(normalParkHours, magicParkHours);
 
             return blizzardHours;
         }
 
-        public OperatingHours GetDowntownDisneyMarketPlacehHours(HtmlDocument page)
+        public ParkOperatingHours GetDowntownDisneyMarketPlacehHours(HtmlDocument page)
         {
 
             var normalParkHours = page.DocumentNode.SelectSingleNode("/html[1]/body[1]/div[1]/div[2]/div[4]/div[1]/div[2]/div[2]/div[2]/a[8]/div[1]/div[2]").InnerHtml;
             var magicParkHours = page.DocumentNode.SelectSingleNode("/html[1]/body[1]/div[1]/div[2]/div[4]/div[1]/div[2]/div[2]/div[2]/a[8]/div[1]/div[3]").InnerHtml;
 
-            OperatingHours mkplaceHours = GetOperatingHours(normalParkHours, magicParkHours);
+            ParkOperatingHours mkplaceHours = GetOperatingHours(normalParkHours, magicParkHours);
 
             return mkplaceHours;
         }
 
-        public OperatingHours GetDowntownDisneyWestSideHours(HtmlDocument page)
+        public ParkOperatingHours GetDowntownDisneyWestSideHours(HtmlDocument page)
         {
 
             var normalParkHours = page.DocumentNode.SelectSingleNode("/html[1]/body[1]/div[1]/div[2]/div[4]/div[1]/div[2]/div[2]/div[2]/a[9]/div[1]/div[2]").InnerHtml;
             var magicParkHours = page.DocumentNode.SelectSingleNode("/html[1]/body[1]/div[1]/div[2]/div[4]/div[1]/div[2]/div[2]/div[2]/a[9]/div[1]/div[3]").InnerHtml;
 
-            OperatingHours westsideHours = GetOperatingHours(normalParkHours, magicParkHours);
+            ParkOperatingHours westsideHours = GetOperatingHours(normalParkHours, magicParkHours);
 
             return westsideHours;
         }
 
-        public OperatingHours GetDowntownDisneyPleasureIslandHours(HtmlDocument page)
+        public ParkOperatingHours GetDowntownDisneyPleasureIslandHours(HtmlDocument page)
         {
 
             var normalParkHours = page.DocumentNode.SelectSingleNode("/html[1]/body[1]/div[1]/div[2]/div[4]/div[1]/div[2]/div[2]/div[2]/a[10]/div[1]/div[2]").InnerHtml;
             var magicParkHours = page.DocumentNode.SelectSingleNode("/html[1]/body[1]/div[1]/div[2]/div[4]/div[1]/div[2]/div[2]/div[2]/a[10]/div[1]/div[3]").InnerHtml;
 
-            OperatingHours pleasureIslandHours = GetOperatingHours(normalParkHours, magicParkHours);
+            ParkOperatingHours pleasureIslandHours = GetOperatingHours(normalParkHours, magicParkHours);
 
             return pleasureIslandHours;
         }
 
-        public OperatingHours GetESPNHours(HtmlDocument page)
+        public ParkOperatingHours GetESPNHours(HtmlDocument page)
         {
 
             var normalParkHours = page.DocumentNode.SelectSingleNode("/html[1]/body[1]/div[1]/div[2]/div[4]/div[1]/div[2]/div[2]/div[2]/a[11]/div[1]/div[2]").InnerHtml;
             var magicParkHours = page.DocumentNode.SelectSingleNode("/html[1]/body[1]/div[1]/div[2]/div[4]/div[1]/div[2]/div[2]/div[2]/a[11]/div[1]/div[3]").InnerHtml;
 
-            OperatingHours espnHours = GetOperatingHours(normalParkHours, magicParkHours);
+            ParkOperatingHours espnHours = GetOperatingHours(normalParkHours, magicParkHours);
 
             return espnHours;
         }
 
-        public OperatingHours GetDowntownDisneyHours(HtmlDocument page)
+        public ParkOperatingHours GetDowntownDisneyHours(HtmlDocument page)
         {
 
             var normalParkHours = page.DocumentNode.SelectSingleNode("/html[1]/body[1]/div[1]/div[2]/div[4]/div[1]/div[2]/div[2]/div[2]/a[12]/div[1]/div[2]").InnerHtml;
             var magicParkHours = page.DocumentNode.SelectSingleNode("/html[1]/body[1]/div[1]/div[2]/div[4]/div[1]/div[2]/div[2]/div[2]/a[12]/div[1]/div[3]").InnerHtml;
 
-            OperatingHours downtownHours = GetOperatingHours(normalParkHours, magicParkHours);
+            ParkOperatingHours downtownHours = GetOperatingHours(normalParkHours, magicParkHours);
 
             return downtownHours;
         }
 
-        private OperatingHours GetOperatingHours(string openTime, string closeTime, string magicHours)
+        private ParkOperatingHours GetOperatingHours(string openTime, string closeTime, string magicHours)
         {
-            var opHours = new OperatingHours();
+            var opHours = new ParkOperatingHours();
             var nHours = new List<DateTime>();
             var mHours = new List<DateTime>();
 
@@ -211,14 +225,14 @@ namespace GetWDWHours
             return opHours;
         }
 
-        private OperatingHours GetOperatingHours(string normalHours, string magicHours)
+        private ParkOperatingHours GetOperatingHours(string normalHours, string magicHours)
         {
             // <p>7:00am &ndash; 8:00am</p><p>1:00am &ndash; 3:00am</p>
             // 9:30 pm to 11:30 pm &ndash; Extra Magic Hours
 
             try
             {
-                var opHours = new OperatingHours();
+                var opHours = new ParkOperatingHours();
 
                 var nHours = new List<DateTime>();
                 var mHours = new List<DateTime>();
@@ -299,7 +313,7 @@ namespace GetWDWHours
             }
             catch (Exception)
             {
-                return new OperatingHours();
+                return new ParkOperatingHours();
             }
         }
 
