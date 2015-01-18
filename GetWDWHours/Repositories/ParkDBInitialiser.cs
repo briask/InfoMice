@@ -9,7 +9,7 @@ namespace Repositories
     using System.Data.Entity;
     using EventModels;
 
-    public class ParkDBInitialiser : DropCreateDatabaseAlways<ParkDBContext>
+    public class ParkDBInitialiser : CreateDatabaseIfNotExists<ParkDBContext>
     {
         protected override void Seed(ParkDBContext context)
         {

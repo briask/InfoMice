@@ -44,11 +44,27 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="xunit">
+      <HintPath>..\packages\xunit.1.9.2\lib\net20\xunit.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GenericRepository.cs" />
     <Compile Include="IParkRepository.cs" />
     <Compile Include="IRepository.cs" />
+    <Compile Include="Migrations\201501152146490_InitialCreate.cs" />
+    <Compile Include="Migrations\201501152146490_InitialCreate.Designer.cs">
+      <DependentUpon>201501152146490_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201501181651244_idx_updated.cs" />
+    <Compile Include="Migrations\201501181651244_idx_updated.Designer.cs">
+      <DependentUpon>201501181651244_idx_updated.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201501181714565_idx_parkDate.cs" />
+    <Compile Include="Migrations\201501181714565_idx_parkDate.Designer.cs">
+      <DependentUpon>201501181714565_idx_parkDate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="ParkDBContext.cs" />
     <Compile Include="ParkDBInitialiser.cs" />
     <Compile Include="ParkRepository.cs" />
@@ -63,6 +79,17 @@
       <Project>{78AC114A-E322-4E9A-BEB9-0F5B49227357}</Project>
       <Name>EventModels</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201501152146490_InitialCreate.resx">
+      <DependentUpon>201501152146490_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201501181651244_idx_updated.resx">
+      <DependentUpon>201501181651244_idx_updated.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201501181714565_idx_parkDate.resx">
+      <DependentUpon>201501181714565_idx_parkDate.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

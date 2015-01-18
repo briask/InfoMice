@@ -40,10 +40,12 @@ namespace GetWDWHours
                     string url = test.GenerateURL(dateToRetrieve);
                     var page = test.GetPage(url);
 
-                    while(test.CheckIfDataValid(page) == false)
+                    int counter = 0;
+                    while((test.CheckIfDataValid(page) == false) && (counter < 5))
                     {
                         Thread.Sleep(5000);
                         page = test.GetPage(url);
+                        counter++;
                     }
 
                     var testhours = test.GetMagicKingdomHours(page).AdjustForDate(dateToRetrieve);

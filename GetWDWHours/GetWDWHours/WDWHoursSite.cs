@@ -35,16 +35,22 @@ namespace GetWDWHours
 
         public bool CheckIfDataValid(HtmlDocument page)
         {
-            throw new NotImplementedException();
-
-            if (page.DocumentNode.SelectSingleNode("/html[1]/body[1]/div[1]/div[2]/div[4]/div[1]/div[2]/div[2]/div[2]/a[1]/div[1]/div[2]").InnerHtml == null)
+            if (page.DocumentNode.SelectSingleNode(
+                "/html[1]/body[1]/div[1]/div[2]/div[4]/div[1]/div[2]/div[2]/div[2]/a[1]/div[1]/div[2]") == null)
             {
                 return false;
             }
-            else
-            {
-                return true;
-            }
+            else if (page.DocumentNode.SelectSingleNode(
+                        "/html[1]/body[1]/div[1]/div[2]/div[4]/div[1]/div[2]/div[2]/div[2]/a[1]/div[1]/div[2]")
+                        .InnerHtml == null)
+                {
+                    return false;
+                }
+                else
+                {
+                    return true;
+                }
+            
         }
 
         public ParkOperatingHours GetMagicKingdomHours(HtmlDocument page)
