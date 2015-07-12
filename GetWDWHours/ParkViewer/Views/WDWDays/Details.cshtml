@@ -1,0 +1,114 @@
+﻿@model ParkViewer.Models.WDWDay
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>WDWDay</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ParkName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ParkName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ParkDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ParkDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ParkActive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ParkActive)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HasExtraHours)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HasExtraHours)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ParkClosed)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ParkClosed)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ParkReopen)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ParkReopen)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NormalOpen)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NormalOpen)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NormalClose)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NormalClose)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EarlyOpen)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EarlyOpen)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EarlyClose)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EarlyClose)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LateOpen)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LateOpen)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LateClose)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LateClose)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

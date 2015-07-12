@@ -35,6 +35,7 @@ namespace GetWDWHours
 
             using (myctxt)
             {
+                int saveCounter = 0;
                 foreach (var dateToRetrieve in datesToQuery)
                 {
                     string url = test.GenerateURL(dateToRetrieve);
@@ -84,20 +85,20 @@ namespace GetWDWHours
                     testhours.ParkId = mkpk.Id;
                     myctxt.ParkOperatingHours.Add(testhours);
 
-                    testhours = test.GetDowntownDisneyMarketPlacehHours(page).AdjustForDate(dateToRetrieve);
-                    mkpk = dbquery.FindByShortName("WDWDDMP");
-                    testhours.ParkId = mkpk.Id;
-                    myctxt.ParkOperatingHours.Add(testhours);
+                    //testhours = test.GetDowntownDisneyMarketPlacehHours(page).AdjustForDate(dateToRetrieve);
+                    //mkpk = dbquery.FindByShortName("WDWDDMP");
+                    //testhours.ParkId = mkpk.Id;
+                    //myctxt.ParkOperatingHours.Add(testhours);
 
-                    testhours = test.GetDowntownDisneyWestSideHours(page).AdjustForDate(dateToRetrieve);
-                    mkpk = dbquery.FindByShortName("WDWDDWS");
-                    testhours.ParkId = mkpk.Id;
-                    myctxt.ParkOperatingHours.Add(testhours);
+                    //testhours = test.GetDowntownDisneyWestSideHours(page).AdjustForDate(dateToRetrieve);
+                    //mkpk = dbquery.FindByShortName("WDWDDWS");
+                    //testhours.ParkId = mkpk.Id;
+                    //myctxt.ParkOperatingHours.Add(testhours);
 
-                    testhours = test.GetDowntownDisneyPleasureIslandHours(page).AdjustForDate(dateToRetrieve);
-                    mkpk = dbquery.FindByShortName("WDWDDPI");
-                    testhours.ParkId = mkpk.Id;
-                    myctxt.ParkOperatingHours.Add(testhours);
+                    //testhours = test.GetDowntownDisneyPleasureIslandHours(page).AdjustForDate(dateToRetrieve);
+                    //mkpk = dbquery.FindByShortName("WDWDDPI");
+                    //testhours.ParkId = mkpk.Id;
+                    //myctxt.ParkOperatingHours.Add(testhours);
 
                     testhours = test.GetESPNHours(page).AdjustForDate(dateToRetrieve);
                     mkpk = dbquery.FindByShortName("WDWESPN");
@@ -109,9 +110,12 @@ namespace GetWDWHours
                     testhours.ParkId = mkpk.Id;
                     myctxt.ParkOperatingHours.Add(testhours);
 
-                    myctxt.SaveChanges();
+                    if ((saveCounter % 100) == 0)
+                    {
+                        myctxt.SaveChanges();
+                    }
 
-                    Thread.Sleep(1000);
+                    Thread.Sleep(100);
                 }
             }
         }
