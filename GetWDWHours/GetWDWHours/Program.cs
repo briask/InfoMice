@@ -128,9 +128,9 @@ namespace GetWDWHours
             }
         }
 
-        private static IEnumerable<DateTime> GenerateDatesToQuery(DateTime startdate, int numDates)
+        private static IEnumerable<DateTime> GenerateDatesToQuery(DateTime startdate, int numDays)
         {
-            for (var day = startdate.Date; day.Date <= startdate.AddDays(numDates); day = day.AddDays(1))
+            for (var day = startdate.Date; day.Date <= startdate.AddDays(numDays); day = day.AddDays(1))
             {
                 yield return day;
             }
